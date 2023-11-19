@@ -1,7 +1,7 @@
 {
-  "name": "serverless-boilerplate-express-typescript",
-  "version": "1.2.1",
-  "description": "Serverless framework ExpressJS TypeScript",
+  "name": "dimensionware-ai-showcase",
+  "version": "0.0.1",
+  "description": "Dimensionware AI Showcase",
   "scripts": {
     "dev:db": "tsx scripts/database.ts",
     "dev:server": "cross-env NODE_ENV=development NODE_OPTIONS=--dns-result-order=ipv4first sls offline start --stage offline",
@@ -101,5 +101,5 @@
       "@semantic-release/github"
     ]
   },
-  "author": "Ixartz (https://github.com/ixartz)"
+  "author": "Andrew Finegan (https://github.com/afinegan/dimensionware-ai-showcase)"
 }
